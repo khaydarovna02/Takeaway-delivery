@@ -466,3 +466,11 @@
   text-transform: uppercase;
   color: #696969;
 }
+
+.recent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}

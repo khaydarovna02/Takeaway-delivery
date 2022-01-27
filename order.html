@@ -16,66 +16,50 @@
     <div class="container p-5">
       <div class="row d-flex justify-content-center">
         <div class="col-md-6">
-          <h4 class="mb-3 text-center">Login Page</h4>
+          <h4 class="mb-3 text-center">Order Page</h4>
           <form action="forma" class="form-control p-4 bg-light">
-            <label for="email">Enter your email</label>
+            <label for="fname">Enter your firstname</label>
             <input
               type="text"
               class="form-control mb-4"
-              id="email"
-              placeholder="your@example.com"
+              id="fname"
+              placeholder="Firstname"
               required
             />
-            <label for="username">Enter your username</label>
+            <label for="lname">Enter your lastname</label>
             <input
               type="text"
               class="form-control mb-4"
-              id="username"
-              placeholder="username"
+              id="lname"
+              placeholder="Lastname"
               required
             />
-            <label for="password">Enter your password</label>
+            <label for="tel">Enter your phone number</label>
             <input
-              type="password"
+              type="tel"
               class="form-control mb-4"
-              id="password"
-              placeholder="password"
+              id="tel"
+              placeholder="+998 90 123 45 67"
               required
             />
-            <label for="repassword">Enter your password to confirm</label>
+            <label for="address">Enter your address</label>
             <input
-              type="password"
+              type="text"
               class="form-control mb-4"
-              id="repassword"
-              placeholder="password to confirm"
+              id="address"
+              placeholder="Address"
               required
             />
             <button
-              onclick="login()"
               class="btn btn-primary pl-5 pr-5 d-flex mr-auto ml-auto"
               type="submit"
             >
-              Sign In
+              Order
             </button>
           </form>
-          <h1 id="correct"></h1>
         </div>
       </div>
     </div>
-    <script>
-      function login() {
-        let email = document.getElementById("email").value;
-        let username = document.getElementById("username").value;
-
-        if (email == "your@example.com" && username == "username") {
-          document.getElementById("correct").innerHTML = "Success";
-          document.getElementById("correct").style.color = "green";
-        } else {
-          document.getElementById("correct").innerHTML = "Fail";
-          document.getElementById("correct").style.color = "red";
-        }
-      }
-    </script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

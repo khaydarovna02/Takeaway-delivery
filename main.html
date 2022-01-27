@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Houzing</title>
+    <title>Takeaway & delivery</title>
     <link rel="stylesheet" href="./main.css" />
     <link
       rel="stylesheet"
@@ -14,820 +14,315 @@
     />
   </head>
   <body>
-    <div class="main">
-      <div class="navbar">
-        <div class="logoWrapper">
-          <img width="40" height="48" src="./images/logo.png" alt="logo" />
-          <p class="logoTitle">Houzing</p>
+    <header>
+      <ul class="nav nav-justified">
+        <li class="nav-item"><img src="./images/Logo.svg" alt="logo" /></li>
+        <li class="nav-item">
+          <a href="./main.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="./order.html" class="nav-link">Order</a>
+        </li>
+        <li class="nav-item">
+          <a href="./login.html" class="nav-link">Login</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://telegram.org/" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <aside>
+      <img class="main-image" src="./images/picture.png" alt="picture" />
+      <h1>
+        Beautiful food & <br />
+        takeaway, <span>delivered</span> <br />
+        to your door.
+      </h1>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and <br />
+        typesetting industry. Lorem Ipsum has been the industry's <br />
+        standard dummy text ever since the 1500.
+      </p>
+      <button type="button" class="btn">Place an Order</button> <br />
+      <img width="20" height="20" src="./images/star.png" alt="star" />
+      <span class="trsp">Trustpilot</span> <br />
+      <span class="num blue">4.8 out of 5</span>
+      <span class="num">based on 2000+ reviews</span>
+    </aside>
+    <article>
+      <img class="main-image" src="./images/picture1.png" alt="picture" />
+      <h1 id="text">The home of</h1>
+      <h1>fresh products</h1>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and <br />
+        typesetting industry. Lorem Ipsum has been the industry's <br />
+        standard dummy text ever since the 1500.
+      </p>
+      <button type="button" class="btn">Learn about us</button> <br />
+    </article>
+    <div class="frame">
+      <h1 class="title">How it works.</h1>
+      <div class="menus">
+        <div>
+          <img src="./images/menu.png" alt="menu" />
+          <h4 class="text-center">Adapt your menu items</h4>
+          <p>
+            Easily adapt your menu using the <br />
+            webflow CMS and allow <br />
+            customers to browse your items.
+          </p>
         </div>
-        <div class="logoWrapper">
-          <p class="navItem">Home</p>
-          <p class="navItem">Listing</p>
-          <p class="navItem">Property</p>
-          <p class="navItem">Pages</p>
-          <p class="navItem">Contact</p>
-          <img width="20" height="20" src="./images/phone.png" alt="phone" />
-          <p class="phone navItem">(+88) 1990 6886</p>
-          <img class="user" src="./images/user.png" alt="user" />
-          <button class="pl-4 pr-4 btn btn-white">
-            <img src="./images/plus.png" alt="plus" />
-            <span class="btn-text">Create Listing</span>
-          </button>
+        <div>
+          <img src="./images/order.png" alt="order" />
+          <h4 class="text-center">Accept online orders & takeout</h4>
+          <p>
+            Let your customers order and pay <br />
+            via the powerful ecommerce system, <br />
+            or simple let them call your store.
+          </p>
         </div>
-      </div>
-      <div class="mainContent">
-        <div class="mainContentText">IT'S GREAT TO BE HOME!</div>
-        <div class="mainContentTitle">Find Your Perfect Home</div>
-        <div class="logoWrapper">
-          <div class="mainContentText mainContentMenu">Buy</div>
-          <div class="mainContentText mainContentMenu">Rent</div>
-          <div class="mainContentText mainContentMenu">Sold</div>
-        </div>
-        <div class="mainContentTab">
-          <div class="mainContentTabItem">
-            <label for="type" class="mainContentTabTitle">TYPE</label>
-            <select name="type" id="type" class="mainContentTabText">
-              <option value="property1">Property type</option>
-              <option value="property2">Property type2</option>
-              <option value="property3">Property type3</option>
-              <option value="property4">Property type4</option>
-              <option value="property5">Property type5</option>
-              <option value="property6">Property type6</option>
-            </select>
-          </div>
-          <div class="mainContentTabItem">
-            <label class="mainContentTabTitle" for="location">LOCATION</label>
-            <select name="location" id="location" class="mainContentTabText">
-              <option value="all">All Cities</option>
-              <option value="tashkent">Tashkent</option>
-              <option value="london">London</option>
-              <option value="paris">Paris</option>
-              <option value="moscow">Moscow</option>
-            </select>
-          </div>
-          <div class="mainContentTabItem">
-            <label for="search" class="mainContentTabTitle">SEARCH</label>
-            <input
-              type="text"
-              name="search"
-              id
-              search
-              placeholder="Enter keywords"
-              class="mainContentTabText"
-            />
-          </div>
-          <img
-            src="./images/settings.png"
-            alt="setting"
-            width="20"
-            height="20"
-          />
-          <div class="mainContentTabSearch">
-            Advanced <br />
-            Search
-          </div>
-          <button class="pt-3 pb-3 pl-4 pr-4 btn btn-primary">
-            <img
-              src="./images/search.png"
-              alt="search"
-              width="14"
-              height="14"
-            />
-            <span class="mainContentTabTitle mainSearchColor">SEARCH</span>
-          </button>
+        <div>
+          <img src="./images/delivery.png" alt="delivery" />
+          <h4 class="text-center">Manage delivery or takeout</h4>
+          <p>
+            Manage your own logistics and <br />
+            take orders simply through the <br />
+            ecommerce system.
+          </p>
         </div>
       </div>
     </div>
-    <div class="featured-list">
-      <div class="listTitle">Discover Our Featured Listings</div>
-      <div class="listText">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit
-      </div>
-      <div class="featured-item">
-        <div class="featured-item-1">
-          <div class="itemImg">
-            <div class="itemBtn featuredBtn">FEATURED</div>
-            <div class="itemBtn saleBtn">FOR SALE</div>
-          </div>
-          <div class="featured-inner">
-            <div class="featured-inner-title">New Apartment Nice Wiew</div>
-            <div class="featured-inner-text">Quincy St, Brooklyn, NY, USA</div>
-            <div class="featured-icons">
-              <div class="text-center">
-                <img src="./images/bed.png" alt="bed" width="19" height="14" />
-                <div class="featured-inner-text">4 Beds</div>
-              </div>
-              <div class="text-center">
-                <img
-                  src="./images/bath.png"
-                  alt="bath"
-                  width="18"
-                  height="19"
-                />
-                <div class="featured-inner-text">5 Baths</div>
-              </div>
-              <div class="text-center">
-                <img src="./images/car.png" alt="car" width="19" height="19" />
-                <div class="featured-inner-text">1 Garage</div>
-              </div>
-              <div class="text-center">
-                <img
-                  src="./images/ruler.png"
-                  alt="ruler"
-                  width="17"
-                  height="17"
-                />
-                <div class="featured-inner-text">1200 Sq Ft</div>
-              </div>
-            </div>
-          </div>
-          <div class="featured-bottom">
-            <div>
-              <div class="featured-old-price">$2,800/mo</div>
-              <div class="featured-inner-title">$7,500/mo</div>
-            </div>
-            <div class="d-flex justify-content-between featured-bottom-icons">
-              <img
-                width="13"
-                height="13"
-                src="./images/strelka.png"
-                alt="strelka"
-              />
-              <img
-                width="15"
-                height="15"
-                class="ml-4 mr-4"
-                src="./images/add.png"
-                alt="add"
-              />
-              <img width="15" height="15" src="./images/love.png" alt="love" />
-            </div>
-          </div>
-        </div>
-        <div class="featured-item-1">
-          <div class="itemImg">
-            <div class="itemBtn featuredBtn">FEATURED</div>
-            <div class="itemBtn saleBtn">FOR SALE</div>
-          </div>
-          <div class="featured-inner">
-            <div class="featured-inner-title">Skyper Pool Apartment</div>
-            <div class="featured-inner-text">
-              112 Glenwood Ave Hyde Park, Boston, MA
-            </div>
-            <div class="featured-icons">
-              <div class="text-center">
-                <img src="./images/bed.png" alt="bed" width="19" height="14" />
-                <div class="featured-inner-text">4 Beds</div>
-              </div>
-              <div class="text-center">
-                <img
-                  src="./images/bath.png"
-                  alt="bath"
-                  width="18"
-                  height="19"
-                />
-                <div class="featured-inner-text">5 Baths</div>
-              </div>
-              <div class="text-center">
-                <img src="./images/car.png" alt="car" width="19" height="19" />
-                <div class="featured-inner-text">1 Garage</div>
-              </div>
-              <div class="text-center">
-                <img
-                  src="./images/ruler.png"
-                  alt="ruler"
-                  width="17"
-                  height="17"
-                />
-                <div class="featured-inner-text">1200 Sq Ft</div>
-              </div>
-            </div>
-          </div>
-          <div class="featured-bottom">
-            <div>
-              <div class="featured-old-price">$2,800/mo</div>
-              <div class="featured-inner-title">$5,250/mo</div>
-            </div>
-            <div class="d-flex justify-content-between featured-bottom-icons">
-              <img
-                width="13"
-                height="13"
-                src="./images/strelka.png"
-                alt="strelka"
-              />
-              <img
-                width="15"
-                height="15"
-                class="ml-4 mr-4"
-                src="./images/add.png"
-                alt="add"
-              />
-              <img width="15" height="15" src="./images/love.png" alt="love" />
-            </div>
-          </div>
-        </div>
-        <div class="featured-item-1">
-          <div class="itemImg">
-            <div class="itemBtn featuredBtn">FEATURED</div>
-            <div class="itemBtn saleBtn">FOR SALE</div>
-          </div>
-          <div class="featured-inner">
-            <div class="featured-inner-title">New Caledonian Wharf</div>
-            <div class="featured-inner-text">
-              251 SW 6th Ln Florida City, FL
-            </div>
-            <div class="featured-icons">
-              <div class="text-center">
-                <img src="./images/bed.png" alt="bed" width="19" height="14" />
-                <div class="featured-inner-text">4 Beds</div>
-              </div>
-              <div class="text-center">
-                <img
-                  src="./images/bath.png"
-                  alt="bath"
-                  width="18"
-                  height="19"
-                />
-                <div class="featured-inner-text">5 Baths</div>
-              </div>
-              <div class="text-center">
-                <img src="./images/car.png" alt="car" width="19" height="19" />
-                <div class="featured-inner-text">1 Garage</div>
-              </div>
-              <div class="text-center">
-                <img
-                  src="./images/ruler.png"
-                  alt="ruler"
-                  width="17"
-                  height="17"
-                />
-                <div class="featured-inner-text">1200 Sq Ft</div>
-              </div>
-            </div>
-          </div>
-          <div class="featured-bottom">
-            <div>
-              <div class="featured-old-price">$2,800/mo</div>
-              <div class="featured-inner-title">$2,300/mo</div>
-            </div>
-            <div class="d-flex justify-content-between featured-bottom-icons">
-              <img
-                width="13"
-                height="13"
-                src="./images/strelka.png"
-                alt="strelka"
-              />
-              <img
-                width="15"
-                height="15"
-                class="ml-4 mr-4"
-                src="./images/add.png"
-                alt="add"
-              />
-              <img width="15" height="15" src="./images/love.png" alt="love" />
-            </div>
-          </div>
-        </div>
-        <div class="featured-item-1">
-          <div class="itemImg">
-            <div class="itemBtn featuredBtn">FEATURED</div>
-            <div class="itemBtn saleBtn">FOR SALE</div>
-          </div>
-          <div class="featured-inner">
-            <div class="featured-inner-title">Spacious Family Home</div>
-            <div class="featured-inner-text">
-              4 W 21st St Flatiron District, New York, NY
-            </div>
-            <div class="featured-icons">
-              <div class="text-center">
-                <img src="./images/bed.png" alt="bed" width="19" height="14" />
-                <div class="featured-inner-text">4 Beds</div>
-              </div>
-              <div class="text-center">
-                <img
-                  src="./images/bath.png"
-                  alt="bath"
-                  width="18"
-                  height="19"
-                />
-                <div class="featured-inner-text">5 Baths</div>
-              </div>
-              <div class="text-center">
-                <img src="./images/car.png" alt="car" width="19" height="19" />
-                <div class="featured-inner-text">1 Garage</div>
-              </div>
-              <div class="text-center">
-                <img
-                  src="./images/ruler.png"
-                  alt="ruler"
-                  width="17"
-                  height="17"
-                />
-                <div class="featured-inner-text">1200 Sq Ft</div>
-              </div>
-            </div>
-          </div>
-          <div class="featured-bottom">
-            <div>
-              <div class="featured-old-price">$2,800/mo</div>
-              <div class="featured-inner-title">$1,900/mo</div>
-            </div>
-            <div class="d-flex justify-content-between featured-bottom-icons">
-              <img
-                width="13"
-                height="13"
-                src="./images/strelka.png"
-                alt="strelka"
-              />
-              <img
-                width="15"
-                height="15"
-                class="ml-4 mr-4"
-                src="./images/add.png"
-                alt="add"
-              />
-              <img width="15" height="15" src="./images/love.png" alt="love" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="choose">
-      <div class="listTitle">Why Choose Us</div>
-      <div class="listText">We provide full service at every step</div>
-      <div class="choose-items">
-        <div class="choose-item">
-          <image class="house" src="./images/discord.svg" alt="house" />
-          <div class="choose-item-title">Trusted By Thousands</div>
-          <div class="choose-item-text">
-            With over 1 million+ homes for sale available on the website, Trulia
-            can match you with a house you will want to call home.
-          </div>
-        </div>
-        <div class="choose-item">
-          <image class="house" src="./images/house.svg" alt="house" />
-          <div class="choose-item-title">Wide Renge Of Properties</div>
-          <div class="choose-item-text">
-            With over 1 million+ homes for sale available on the website, Trulia
-            can match you with a house you will want to call home.
-          </div>
-        </div>
-        <div class="choose-item">
-          <image class="house" src="./images/calculator.svg" alt="house" />
-          <div class="choose-item-title">Financing Made Easy</div>
-          <div class="choose-item-text">
-            With over 1 million+ homes for sale available on the website, Trulia
-            can match you with a house you will want to call home.
-          </div>
-        </div>
-        <div class="choose-item">
-          <image class="house" src="./images/maps.svg" alt="house" />
-          <div class="choose-item-title">See Neighborhoods</div>
-          <div class="choose-item-text">
-            With over 1 million+ homes for sale available on the website, Trulia
-            can match you with a house you will want to call home.
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="content">
-      <div class="listTitle">Explore Our Properties</div>
-      <div class="listText">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit donec
-        sollicitudin
-      </div>
-      <div
-        id="carouselExampleControls"
-        class="carousel slide mt-5"
-        data-ride="carousel"
+    <article class="text-center">
+      <h1 class="title">Browse our menu</h1>
+      <p>
+        Use our menu to place an order online, or <span>phone</span> our store
+        <br />
+        to place a pickup order. Fast and fresh food.
+      </p>
+      <button
+        id="burgerbtn"
+        style="background: #35b8be; color: #ffffff"
+        onclick="burger()"
+        type="button"
+        class="btn w-25 ml-3 mr-3 p-3 border"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="slideImg slide1 d-inline-block">
-              <img src="./images/home.svg" alt="home" />
-              <div class="slideText">House</div>
-            </div>
-            <div class="slideImg slide2 d-inline-block">
-              <img src="./images/apartment.svg" alt="apartment" />
-              <div class="slideText">Apartment</div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="slideImg slide2 d-inline-block">
-              <img src="./images/apartment.svg" alt="apartment" />
-              <div class="slideText">Apartment</div>
-            </div>
-            <div class="slideImg slide3 d-inline-block">
-              <img src="./images/office.svg" alt="office" />
-              <div class="slideText">Office</div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="slideImg slide3 d-inline-block">
-              <img src="./images/office.svg" alt="office" />
-              <div class="slideText">Office</div>
-            </div>
-            <div class="slideImg slide4 d-inline-block">
-              <img src="./images/villa.svg" alt="villa" />
-              <div class="slideText">Villa</div>
+        Burgers
+      </button>
+      <button
+        id="drinkbtn"
+        onclick="drink()"
+        type="button"
+        class="btn w-25 ml-3 mr-3 p-3 border"
+      >
+        Drinks
+      </button>
+      <div id="burger">
+        <div class="d-flex">
+          <div class="d-flex border rounded">
+            <img src="./images/burger.png" alt="burger" />
+            <div>
+              <h3>Burger Dreams</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="slideImg slide4 d-inline-block">
-              <img src="./images/villa.svg" alt="villa" />
-              <div class="slideText">Villa</div>
-            </div>
-            <div class="slideImg slide5 d-inline-block">
-              <img src="./images/room.svg" alt="room" />
-              <div class="slideText">Room</div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="slideImg slide5 d-inline-block">
-              <img src="./images/room.svg" alt="room" />
-              <div class="slideText">Room</div>
-            </div>
-            <div class="slideImg slide1 d-inline-block">
-              <img src="./images/home.svg" alt="home" />
-              <div class="slideText">House</div>
+          <div class="d-flex border rounded">
+            <img src="./images/burger.png" alt="burger" />
+            <div>
+              <h3>Burger Waldo</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
             </div>
           </div>
         </div>
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <div class="d-flex">
+          <div class="d-flex border rounded">
+            <img src="./images/burger.png" alt="burger" />
+            <div>
+              <h3>Burger Cali</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex border rounded">
+            <img src="./images/burger.png" alt="burger" />
+            <div>
+              <h3>Burger Bacon Buddy</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="d-flex border rounded">
+            <img src="./images/burger.png" alt="burger" />
+            <div>
+              <h3>Burger Spicy</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex border rounded">
+            <img src="./images/burger.png" alt="burger" />
+            <div>
+              <h3>Burger Classic</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="drink">
+        <div class="d-flex">
+          <div class="d-flex border rounded">
+            <img
+              width="120"
+              height="120"
+              src="./images/drink.jpeg"
+              alt="drink"
+            />
+            <div>
+              <h3>Fruit Juices</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex border rounded">
+            <img
+              width="120"
+              height="120"
+              src="./images/drink.jpeg"
+              alt="drink"
+            />
+            <div>
+              <h3>Coca Cola</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="d-flex border rounded">
+            <img
+              width="120"
+              height="120"
+              src="./images/drink.jpeg"
+              alt="drink"
+            />
+            <div>
+              <h3>Coffee</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex border rounded">
+            <img
+              width="120"
+              height="120"
+              src="./images/drink.jpeg"
+              alt="drink"
+            />
+            <div>
+              <h3>Fanta</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="d-flex border rounded">
+            <img
+              width="120"
+              height="120"
+              src="./images/drink.jpeg"
+              alt="drink"
+            />
+            <div>
+              <h3>Pepci</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex border rounded">
+            <img
+              width="120"
+              height="120"
+              src="./images/drink.jpeg"
+              alt="drink"
+            />
+            <div>
+              <h3>Ice Tea</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <div class="p-5">
+      <img src="./images/picture2.png" alt="picture2" class="float-left" />
+      <div class="bg">
+        <h1 class="text-white text-justify">
+          Support good food <br />
+          and local business
+        </h1>
+        <button class="btn btn-white">
+          <a target="_blank" href="./order.html">Order now</a>
+        </button>
       </div>
     </div>
-    <div class="guides">
-      <div class="guidesImg">
-        <div class="mainContentText">TRENDS</div>
-        <div class="guidesText">
-          Vermont Farmhouse With Antique Jail Is <br />
-          the Week's Most Popular Home
-        </div>
-        <button class="btn btn-primary guidesBtn">READ MORE</button>
+    <footer class="row">
+      <div class="col-6">
+        <img src="./images/Logo.svg" alt="logo" />
+        <br />
+        <p class="text-left mt-4">
+          Takeaway & Delivery template <br />
+          for small - medium businesses.
+        </p>
       </div>
-      <div class="guidesBottom">
-        <div>
-          <div class="guidesTotal">66.180</div>
-          <div class="guidesTitle">Homes for sale</div>
-        </div>
-        <div>
-          <div class="guidesTotal">4.809</div>
-          <div class="guidesTitle">Open houses</div>
-        </div>
-        <div>
-          <div class="guidesTotal">30.469</div>
-          <div class="guidesTitle">Recently sold</div>
-        </div>
-        <div>
-          <div class="guidesTotal">2.919</div>
-          <div class="guidesTitle">Price reduced</div>
-        </div>
+      <div class="col-2">
+        <h4>COMPANY</h4>
+        <p class="text-left"><a href="./main.html">Home</a></p>
+        <p class="text-left"><a href="./order.html">Order</a></p>
+        <p class="text-left"><a href="https://telegram.org/">Contact</a></p>
       </div>
-    </div>
-    <div class="recent">
-      <div class="listTitle">Recent Properties for Rent</div>
-      <div class="listText">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit
+      <div class="col-2">
+        <h4>TEMPLATE</h4>
+        <p class="text-left">Style Guide</p>
+        <p class="text-left">Changelog</p>
+        <p class="text-left">Licence</p>
+        <p class="text-left">Webflow University</p>
       </div>
-      <div class="featured-item">
-        <div class="featured-item-1">
-          <div class="itemImg">
-            <div class="itemBtn featuredBtn">FEATURED</div>
-            <div class="itemBtn saleBtn">FOR SALE</div>
-          </div>
-          <div class="featured-inner">
-            <div class="featured-inner-title">New Apartment Nice Wiew</div>
-            <div class="featured-inner-text">Quincy St, Brooklyn, NY, USA</div>
-            <div class="featured-icons">
-              <div class="text-center">
-                <img src="./images/bed.png" alt="bed" width="19" height="14" />
-                <div class="featured-inner-text">4 Beds</div>
-              </div>
-              <div class="text-center">
-                <img
-                  src="./images/bath.png"
-                  alt="bath"
-                  width="18"
-                  height="19"
-                />
-                <div class="featured-inner-text">5 Baths</div>
-              </div>
-              <div class="text-center">
-                <img src="./images/car.png" alt="car" width="19" height="19" />
-                <div class="featured-inner-text">1 Garage</div>
-              </div>
-              <div class="text-center">
-                <img
-                  src="./images/ruler.png"
-                  alt="ruler"
-                  width="17"
-                  height="17"
-                />
-                <div class="featured-inner-text">1200 Sq Ft</div>
-              </div>
-            </div>
-          </div>
-          <div class="featured-bottom">
-            <div>
-              <div class="featured-old-price">$2,800/mo</div>
-              <div class="featured-inner-title">$7,500/mo</div>
-            </div>
-            <div class="d-flex justify-content-between featured-bottom-icons">
-              <img
-                width="13"
-                height="13"
-                src="./images/strelka.png"
-                alt="strelka"
-              />
-              <img
-                width="15"
-                height="15"
-                class="ml-4 mr-4"
-                src="./images/add.png"
-                alt="add"
-              />
-              <img width="15" height="15" src="./images/love.png" alt="love" />
-            </div>
-          </div>
-        </div>
-        <div class="featured-item-1">
-          <div class="itemImg">
-            <div class="itemBtn featuredBtn">FEATURED</div>
-            <div class="itemBtn saleBtn">FOR SALE</div>
-          </div>
-          <div class="featured-inner">
-            <div class="featured-inner-title">Skyper Pool Apartment</div>
-            <div class="featured-inner-text">
-              112 Glenwood Ave Hyde Park, Boston, MA
-            </div>
-            <div class="featured-icons">
-              <div class="text-center">
-                <img src="./images/bed.png" alt="bed" width="19" height="14" />
-                <div class="featured-inner-text">4 Beds</div>
-              </div>
-              <div class="text-center">
-                <img
-                  src="./images/bath.png"
-                  alt="bath"
-                  width="18"
-                  height="19"
-                />
-                <div class="featured-inner-text">5 Baths</div>
-              </div>
-              <div class="text-center">
-                <img src="./images/car.png" alt="car" width="19" height="19" />
-                <div class="featured-inner-text">1 Garage</div>
-              </div>
-              <div class="text-center">
-                <img
-                  src="./images/ruler.png"
-                  alt="ruler"
-                  width="17"
-                  height="17"
-                />
-                <div class="featured-inner-text">1200 Sq Ft</div>
-              </div>
-            </div>
-          </div>
-          <div class="featured-bottom">
-            <div>
-              <div class="featured-old-price">$2,800/mo</div>
-              <div class="featured-inner-title">$5,250/mo</div>
-            </div>
-            <div class="d-flex justify-content-between featured-bottom-icons">
-              <img
-                width="13"
-                height="13"
-                src="./images/strelka.png"
-                alt="strelka"
-              />
-              <img
-                width="15"
-                height="15"
-                class="ml-4 mr-4"
-                src="./images/add.png"
-                alt="add"
-              />
-              <img width="15" height="15" src="./images/love.png" alt="love" />
-            </div>
-          </div>
-        </div>
-        <div class="featured-item-1">
-          <div class="itemImg">
-            <div class="itemBtn featuredBtn">FEATURED</div>
-            <div class="itemBtn saleBtn">FOR SALE</div>
-          </div>
-          <div class="featured-inner">
-            <div class="featured-inner-title">New Caledonian Wharf</div>
-            <div class="featured-inner-text">
-              251 SW 6th Ln Florida City, FL
-            </div>
-            <div class="featured-icons">
-              <div class="text-center">
-                <img src="./images/bed.png" alt="bed" width="19" height="14" />
-                <div class="featured-inner-text">4 Beds</div>
-              </div>
-              <div class="text-center">
-                <img
-                  src="./images/bath.png"
-                  alt="bath"
-                  width="18"
-                  height="19"
-                />
-                <div class="featured-inner-text">5 Baths</div>
-              </div>
-              <div class="text-center">
-                <img src="./images/car.png" alt="car" width="19" height="19" />
-                <div class="featured-inner-text">1 Garage</div>
-              </div>
-              <div class="text-center">
-                <img
-                  src="./images/ruler.png"
-                  alt="ruler"
-                  width="17"
-                  height="17"
-                />
-                <div class="featured-inner-text">1200 Sq Ft</div>
-              </div>
-            </div>
-          </div>
-          <div class="featured-bottom">
-            <div>
-              <div class="featured-old-price">$2,800/mo</div>
-              <div class="featured-inner-title">$2,300/mo</div>
-            </div>
-            <div class="d-flex justify-content-between featured-bottom-icons">
-              <img
-                width="13"
-                height="13"
-                src="./images/strelka.png"
-                alt="strelka"
-              />
-              <img
-                width="15"
-                height="15"
-                class="ml-4 mr-4"
-                src="./images/add.png"
-                alt="add"
-              />
-              <img width="15" height="15" src="./images/love.png" alt="love" />
-            </div>
-          </div>
-        </div>
-        <div class="featured-item-1">
-          <div class="itemImg">
-            <div class="itemBtn featuredBtn">FEATURED</div>
-            <div class="itemBtn saleBtn">FOR SALE</div>
-          </div>
-          <div class="featured-inner">
-            <div class="featured-inner-title">Spacious Family Home</div>
-            <div class="featured-inner-text">
-              4 W 21st St Flatiron District, New York, NY
-            </div>
-            <div class="featured-icons">
-              <div class="text-center">
-                <img src="./images/bed.png" alt="bed" width="19" height="14" />
-                <div class="featured-inner-text">4 Beds</div>
-              </div>
-              <div class="text-center">
-                <img
-                  src="./images/bath.png"
-                  alt="bath"
-                  width="18"
-                  height="19"
-                />
-                <div class="featured-inner-text">5 Baths</div>
-              </div>
-              <div class="text-center">
-                <img src="./images/car.png" alt="car" width="19" height="19" />
-                <div class="featured-inner-text">1 Garage</div>
-              </div>
-              <div class="text-center">
-                <img
-                  src="./images/ruler.png"
-                  alt="ruler"
-                  width="17"
-                  height="17"
-                />
-                <div class="featured-inner-text">1200 Sq Ft</div>
-              </div>
-            </div>
-          </div>
-          <div class="featured-bottom">
-            <div>
-              <div class="featured-old-price">$2,800/mo</div>
-              <div class="featured-inner-title">$1,900/mo</div>
-            </div>
-            <div class="d-flex justify-content-between featured-bottom-icons">
-              <img
-                width="13"
-                height="13"
-                src="./images/strelka.png"
-                alt="strelka"
-              />
-              <img
-                width="15"
-                height="15"
-                class="ml-4 mr-4"
-                src="./images/add.png"
-                alt="add"
-              />
-              <img width="15" height="15" src="./images/love.png" alt="love" />
-            </div>
-          </div>
-        </div>
+      <div class="col-2">
+        <h4>FLOWBASE</h4>
+        <p class="text-left">More Cloneables</p>
       </div>
-    </div>
-    <div class="say">
-      <div class="listTitle">Our Testimonials</div>
-      <div class="listText">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit
-      </div>
-      <div class="sayCards">
-        <div class="sayCard">
-          <div class="sayCardText">
-            “ I believe in lifelong learning and Skola is a great place to learn
-            from experts. I've learned a lot and recommend it to all my friends
-            “
-          </div>
-          <img
-            class="cardImg"
-            width="60"
-            height="60"
-            src="./images/designer.jpg"
-            alt="designer"
-          />
-          <div class="featured-inner-title">Marvin McKinney</div>
-          <div class="listText">Designer</div>
-        </div>
-        <div class="sayCard">
-          <div class="sayCardText">
-            “ I believe in lifelong learning and Skola is a great place to learn
-            from experts. I've learned a lot and recommend it to all my friends
-            “
-          </div>
-          <img
-            class="cardImg"
-            width="60"
-            height="60"
-            src="./images/host.jpeg"
-            alt="designer"
-          />
-          <div class="featured-inner-title">Theresa Webb</div>
-          <div class="listText">Host</div>
-        </div>
-        <div class="sayCard">
-          <div class="sayCardText">
-            “ I believe in lifelong learning and Skola is a great place to learn
-            from experts. I've learned a lot and recommend it to all my friends
-            “
-          </div>
-          <img
-            class="cardImg"
-            width="60"
-            height="60"
-            src="./images/reporter.jpg"
-            alt="designer"
-          />
-          <div class="featured-inner-title">Robert Fox</div>
-          <div class="listText">Reporter</div>
-        </div>
-        <div class="sayCard">
-          <div class="sayCardText">
-            “ I believe in lifelong learning and Skola is a great place to learn
-            from experts. I've learned a lot and recommend it to all my friends
-            “
-          </div>
-          <img
-            class="cardImg"
-            width="60"
-            height="60"
-            src="./images/developer.jpg"
-            alt="designer"
-          />
-          <div class="featured-inner-title">Guy Hawkins</div>
-          <div class="listText">Developer</div>
-        </div>
-      </div>
-    </div>
-
+    </footer>
+    <script src="./main.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
